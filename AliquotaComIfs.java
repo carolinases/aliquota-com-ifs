@@ -5,10 +5,10 @@ import javax.swing.*;
 public class AliquotaComIfs {
     public static void main(String[] args) {
 
-        // De 1.903,99 até 2.826,65 o IR é de 7.5% e pode deduzir R$ 142
-        // De 2.826,66 até 3.751,05 o IR é de 15% e pode deduzir R$ 350
-        // De 3.751,06 até 4.664,68 o IR é de 22.5% e pode deduzir R$ 636
-        // Acima de 4.664,68 o IR é de 27.5% e pode deduzir R$ 869
+/*       De 1.903,99 até 2.826,65 o IR é de 7.5% e pode deduzir R$ 142
+         De 2.826,66 até 3.751,05 o IR é de 15% e pode deduzir R$ 350
+         De 3.751,06 até 4.664,68 o IR é de 22.5% e pode deduzir R$ 636
+         Acima de 4.664,68 o IR é de 27.5% e pode deduzir R$ 869 */
 
         System.out.println("Alíquota com ifs");
 
