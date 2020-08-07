@@ -15,17 +15,17 @@ public class AliquotaComIfs {
         double salario = Double.parseDouble((JOptionPane.showInputDialog("Entre com o salário: ")));
 
         if (salario >= 1903.98 && salario <= 2886.65) {
-            System.out.println("A sua aliquota é de 7,5%");
-            System.out.println("Você pode deduzir até R$ 142,80");
+            System.out.println("A sua aliquota é de 7,5%" +
+                    "\nVocê pode deduzir até R$ 142,80");
         } else if (salario >= 2886.65 && salario <= 3751.05) {
-            System.out.println("A sua aliquota é de 15%");
-            System.out.println("Você pode deduzir até R$ 350,80");
+            System.out.println("A sua aliquota é de 15%" +
+                    "\nVocê pode deduzir até R$ 350,80");
         } else if (salario >= 3751.05 && salario <= 4664.68) {
-            System.out.println("A sua aliquota é de 22,5%");
-            System.out.println("Você pode deduzir até R$ 636,13");
+            System.out.println("A sua aliquota é de 22,5%" +
+                    "\nVocê pode deduzir até R$ 636,13");
         } else if (salario > 4664.68) {
-            System.out.println("A sua aliquota é de 27,5%");
-            System.out.println("Você pode deduzir até R$ 869,36");
+            System.out.println("A sua aliquota é de 27,5%" +
+                    "\nVocê pode deduzir até R$ 869,36");
         } else {
             System.out.println("Não se aplica. Talvez você queira dar uma olhada no site da receita: " +
                     "http://receita.economia.gov.br/acesso-rapido/tributos/irpf-imposto-de-renda-pessoa-fisica");
